@@ -6,6 +6,9 @@
   height: 40vmin;
   pointer-events: none;
 }
+body{
+  background-color: #BAE8E8;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,4 +38,82 @@
   to {
     transform: rotate(360deg);
   }
+}
+.container{
+  
+ background-color: #301551;
+ width: 500px;
+ margin: 10% auto;
+}
+.score-container{
+  color:white;
+  background-color: #301551;
+  width: 500px;
+  margin: 10% auto;
+  text-align: center;
+  height: 200px;
+  
+ }
+ 
+ .h2{
+  padding-top: 18px;
+ }
+.inner{
+display: flex;
+justify-content: center;
+ gap: 10px;
+ flex-wrap: wrap;
+ text-align: center;
+
+}
+
+.left{
+ 
+ width: 300px;
+ color: white;
+ margin-top: 5px;
+ margin-right: 55px;
+ align-items: center;
+ padding-top: 14px;
+ font-family:  cursive;
+ background-color: blueviolet;
+ box-shadow: 0.2rem 0.3rem 0.2rem black;
+}
+.right{
+  
+  width: 300px;
+  color: white;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 0.2rem 0.3rem 0.2rem black;
+}
+.color{
+  color: white;
+  /* margin-left: -50px; */
+  font-weight: 500;
+ position: relative;
+ left: 30px;
+ padding-right: 50px;
+ font-size: 20px;
+}
+.col{
+ position: relative;
+ right: 19px;
+ box-shadow: 0.2rem 0.3rem 0.2rem black;
+ border: 1px solid black;
+
+}
+.button{
+  background-color: blue;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 4px 10px;
+ font-family: cursive;
+}
+.button:hover{
+  background-color: green;
 }
